@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EmasApp</string>
+    <string name="text_nameUser">Username</string>
+    <string name="text_password">Password</string>
+    <string name="text_btnEnter">Enter</string>
+    <string name="text_noAccount">¿Not have an account?</string>
+    <string name="text_newAccount">Create one here</string>
+    <string name="str_ca_email">Email</string>
+    <string name="str_ca_name">Name</string>
+    <string name="str_ca_user">User</string>
+    <string name="str_ca_pass">Password</string>
+    <string name="str_ca_confpass">Repeat password</string>
+    <string name="str_btn_createaccount">Register</string>
+    <string name="str_title_toolbar">Create account</string>
+    <!-- RECURSOS DE BOTTOMBAR_TABS -->
+    <string name="str_tab_search">Search</string>
+    <string name="str_tab_home">Home</string>
+    <string name="str_tab_profile">Profile</string>
+</resources>
