@@ -1,11 +1,49 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.i015213.emas.Views.Fragments.SearchFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <include layout="@layout/activity_maps"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <SearchView
+            android:id="@+id/search_neighnorhood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:iconifiedByDefault="false"
+            android:queryHint="@string/search_neighborhood">
+        </SearchView>
+
+        <ProgressBar
+            android:id="@+id/loader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/id_txt_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_result_search"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:textAlignment="center"
+            />
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </android.support.v7.widget.RecyclerView>
 
 
-</FrameLayout>
+    </LinearLayout>
+
+
+
+</android.support.design.widget.CoordinatorLayout>

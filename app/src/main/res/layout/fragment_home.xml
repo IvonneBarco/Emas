@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context="com.i015213.emas.Views.Fragments.HomeFragment">
 
@@ -16,6 +17,16 @@
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
         android:paddingTop="10dp">
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:background="@color/white"
+            android:text="RECORRIDOS FAVORITOS"
+            android:textSize="18sp"
+            android:textColor="@color/bb_darkBackgroundColor"
+            android:textAlignment="center"/>
+
         <ProgressBar
             android:id="@+id/loader"
             android:layout_width="match_parent"
@@ -27,12 +38,5 @@
 
 
     </LinearLayout>
-
-    <android.support.design.widget.FloatingActionButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_margin="16dp"
-        android:src="@drawable/plus_48"/>
 
 </android.support.design.widget.CoordinatorLayout>
