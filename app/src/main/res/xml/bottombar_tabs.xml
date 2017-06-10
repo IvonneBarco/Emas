@@ -9,7 +9,7 @@
         id="@+id/tab_home"
         title="@string/str_tab_home"
         barColorWhenSelected="@color/colorPrimary"
-        icon="@drawable/home_48"/>
+        icon="@drawable/checkbox_fragments"/>
     <tab
         id="@+id/tab_profile"
         title="@string/str_tab_profile"
