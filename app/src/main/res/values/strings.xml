@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AppEmas</string>
+    <string name="app_name">Emas</string>
     <string name="username">Usuario</string>
     <string name="password">Contraseña</string>
     <string name="txt_login">Iniciar</string>
@@ -15,6 +15,19 @@
     <string name="str_tab_search">Buscar</string>
     <string name="str_tab_home">Inicio</string>
     <string name="str_tab_profile">Perfil</string>
+
+    <string name="text_nameUser">Usuario</string>
+    <string name="text_password">Contraseña</string>
+    <string name="text_btnEnter">Ingresar</string>
+    <string name="text_noAccount">¿No tienes una cuenta?</string>
+    <string name="text_newAccount">Crea una aquí</string>
+    <string name="str_ca_email">Email</string>
+    <string name="str_ca_name">Nombre</string>
+    <string name="str_ca_user">Usuario</string>
+    <string name="str_ca_pass">Contraseña</string>
+    <string name="str_ca_confpass">Repetir contraseña</string>
+    <string name="str_btn_createaccount">Registrar</string>
+    <string name="str_title_toolbar">Crear cuenta</string>
 
 
     <!-- TODO: Remove or change this placeholder text -->
@@ -55,7 +68,7 @@
     <string name="item_favorites_menu_desmarcar"> Quitar Favorito </string>
     <string name="item_favorites_menu_more_information"> Más Información</string>
     <string name="str_itm_favorite_route">RUTA</string>
-    <string name="str_itm_favorite_route_bus">****** </string>
+    <string name="str_itm_favorite_route_car">****** </string>
     <string name="str_itm_favorite_neighborhood">BARRIO </string>
     <string name="str_itm_favorite_neighborhood_car">**********</string>
     <string name="txt_title_toolbar_Container_home">Rutas Favoritas </string>
@@ -72,6 +85,7 @@
     <string name="str_menu_update">CAMBIAR TEXT</string>
     <string name="str_menu_exit">CAMBIAR TEXT</string>
     <string name="str_title_toolbar_profile">TOOLBAR PROFILE</string>
+
 
 
 </resources>

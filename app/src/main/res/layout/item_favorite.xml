@@ -33,7 +33,7 @@
                 android:gravity="center"
                 android:textStyle="italic"
                 android:textColor="@color/colorPrimaryDark"
-                android:text="@string/str_itm_favorite_route_bus"/>
+                android:text="@string/str_itm_favorite_route_car"/>
         </LinearLayout>
 
         <LinearLayout

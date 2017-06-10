@@ -9,109 +9,113 @@
     <!-- TODO: Update blank fragment layout -->
     <include layout="@layout/actionbar_toolbar"/>
 
-    <ScrollView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        android:fillViewport="true">
+        android:orientation="vertical"
+        android:weightSum="1"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
-        <LinearLayout
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_weight="0.4">
 
-            android:weightSum="1">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="196dp"
-                android:orientation="vertical"
-                android:gravity="bottom"
-                android:background="@mipmap/ic_launcher"
-                android:layout_weight="0.1">
-
-            </LinearLayout>
-
-
-            <LinearLayout
-                android:layout_width="match_parent"
+            <ImageView
+                android:id="@+id/id_avatar_user"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:padding="10dp">
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/female" />
 
-                <LinearLayout
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="0.2">
+
+            <LinearLayout
+                android:id="@+id/id_txt_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/id_txt_name"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal">
+                    android:textSize="18sp"
+                    android:textColor="@color/blue"
+                    android:text="@string/str_ca_name"/>
 
-                    <TextView
-                        android:id="@+id/id_txt_profile_name"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textAlignment="center"
-                        android:textColor="@color/blue"
-                        android:text="@string/name_user"
-                        android:textSize="32dp"
-                        android:layout_margin="5dp"/>
-
-                </LinearLayout>
-
-                <LinearLayout
+                <TextView
+                    android:id="@+id/id_txt_username"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal"                >
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:padding="10dp">
-
-
-
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:gravity="center">
-
-                        <TextView
-                            android:textColor="@color/blue"
-                            android:id="@+id/txt_help"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="@string/str_fragment_profile_email"/>
-                        <TextView
-                            android:textColor="@color/blue"
-                            android:id="@+id/id_txt_profile_email"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="@string/info_profile_email"
-                            android:onClick="onShowAccount"
-                            android:layout_toRightOf="@id/txt_help"/>
-                    </RelativeLayout>
-
-
-                </LinearLayout>
-
-
-
-
-                <Button
-                    android:id="@+id/id_btn_fragment_profile_Sign_off"
+                    android:textSize="18sp"
                     android:layout_marginTop="10dp"
+                    android:textColor="@color/blue"
+                    android:text="@string/str_ca_user"/>
+
+                <TextView
+                    android:id="@+id/id_txt_useremail"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/btn_fragment_profile_sign_off"
-                    android:theme="@style/StyleButton"/>
+                    android:textSize="18sp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/blue"
+                    android:text="@string/str_ca_email"/>
 
             </LinearLayout>
 
-        </LinearLayout>
+            <LinearLayout
+                android:id="@+id/id_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/id_txt_data"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical">
 
-    </ScrollView>
+                <TextView
+                    android:id="@+id/id_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:text="@string/name_user"/>
+
+                <TextView
+                    android:id="@+id/id_username"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/username"/>
+
+                <TextView
+                    android:id="@+id/id_useremail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/info_profile_email"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+        <Button
+            android:id="@+id/id_btn_fragment_profile_SignOut"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/btn_fragment_profile_sign_off"
+            android:theme="@style/StyleButton"/>
+    </LinearLayout>
 
 
 </android.support.design.widget.CoordinatorLayout>

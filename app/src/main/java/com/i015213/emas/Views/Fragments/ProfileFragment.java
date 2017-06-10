@@ -28,9 +28,9 @@ public class ProfileFragment extends Fragment {
     View view;
     List<User> userList;
     DataUser dataUser;
-    TextView name,email;
+    TextView name,email,username;
     User user;
-    Button signOff;
+    Button signOut;
 
     public ProfileFragment() {
     }
@@ -44,18 +44,20 @@ public class ProfileFragment extends Fragment {
         showTolbar(getResources().getString(R.string.txt_title_toolbar_profile),true);
         setHasOptionsMenu(true);
 
-        name = (TextView) view.findViewById(R.id.id_txt_profile_name);
-        signOff = (Button) view.findViewById(R.id.id_btn_fragment_profile_Sign_off);
-        email = (TextView) view.findViewById(R.id.id_txt_profile_email);
+        name = (TextView) view.findViewById(R.id.id_name);
+        username = (TextView) view.findViewById(R.id.id_username);
+        signOut = (Button) view.findViewById(R.id.id_btn_fragment_profile_SignOut);
+        email = (TextView) view.findViewById(R.id.id_useremail);
 
         dataUser = new DataUser(getActivity());
         dataUser.open();
         user = dataUser.checkStatusLogin();
 
         name.setText(user.getName());
+        username.setText(user.getUsername());
         email.setText(user.getEmail());
 
-        signOff.setOnClickListener(new View.OnClickListener() {
+        signOut.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
@@ -67,10 +69,6 @@ public class ProfileFragment extends Fragment {
 
         return view ;
     }
-
-    /*public boolean onOptionsItemSelected(MenuItem item) {
-        return super.onOptionsItemSelected(item);
-    }*/
 
     private void showTolbar(String title, boolean upButton) {
         Toolbar toolbar = (Toolbar) view.findViewById(R.id.toolbar);
