@@ -15,7 +15,7 @@ import com.i015213.emas.R;
 public class ProfileFragment extends Fragment {
 
     public ProfileFragment() {
-        // Required empty public constructor
+        // Required empty public constructor//
 
     }
 
