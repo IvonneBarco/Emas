@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">EmasApp</string>
+    <string name="text_nameUser">Nombre de usuario</string>
+    <string name="text_password">Contraseña</string>
+    <string name="text_btnEnter">Ingresar</string>
+    <string name="text_noAccount">¿No tienes cuenta?</string>
+    <string name="text_newAccount">Crea una aquí</string>
+    <string name="str_ca_email">Correo electronico</string>
+    <string name="str_ca_name">Nombre</string>
+    <string name="str_ca_user">Usuario</string>
+    <string name="str_ca_pass">Contraseña</string>
+    <string name="str_ca_confpass">Cofirmar contraseña</string>
+    <string name="str_btn_createaccount">Registrarse</string>
+    <string name="str_title_toolbar">Crear cuenta</string>
+    <string name="str_txv_username_cad">Ivonne</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <!-- RECURSOS DE BOTTOMBAR_TABS -->
+    <string name="str_tab_search">Buscar</string>
+    <string name="str_tab_home">Inicio</string>
+    <string name="str_tab_profile">Perfil</string>
+    <string name="id_txv_username_cad">Ivonne Carolina</string>
+    <string name="id_txv_time_card">Ivonne Carolina</string>
+    <string name="txt_title_toolbar_Container">Emas</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- RECURSOS DE MAPS -->
+    <string name="id_btn_map_seattle">Seattle</string>
+    <string name="id_btn_map_dublin">Dublin</string>
+    <string name="id_btn_map_tokyo">Tokyo</string>
+
+    <!-- RECURSOS DE PROFILE -->
+    <string name="name">Name</string>
+    <string name="username">User_Name</string>
+    <string name="useremail">User_Email</string>
+    <string name="btn_update">ACTUALIZAR</string>
+    <string name="str_title_toolbar_profile">Perfil</string>
+    <string name="str_menu_change_name">Cambiar nombre</string>
+    <string name="str_menu_update">Actualizar</string>
+    <string name="str_menu_exit">Cerrar sesión</string>
+    <string name="id_txt_local">BARRIO</string>
+    <string name="search_neighborhood">Buscar Barrio</string>
+    <string name="txt_route">Ruta</string>
+    <string name="name_neighborhood">BARRIO</string>
+    <string name="str_result_search">Resultado de la busqueda</string>
+    <string name="txt_numroute">1</string>
+
+
+</resources>
