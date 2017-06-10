@@ -5,99 +5,100 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.i015213.emas.CreateAccountActivity">
+    tools:context="com.i015213.emas.Views.CreateAccountActivity">
 
-    <include layout="@layout/activity_actionbar_toolbar"/>
+    <include layout="@layout/actionbar_toolbar"/>
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:fillViewport="true"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
-
         <LinearLayout
+
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:padding="30dp">
+            android:padding="20dp"
+            android:orientation="vertical">
+
 
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:theme="@style/StyleTextInputBlack">
+                android:theme="@style/StyleTextInputBlue">
 
                 <android.support.design.widget.TextInputEditText
-                    android:id="@+id/id_txt_email"
+                    android:id="@+id/id_account_email"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="@string/str_ca_email"/>
-
+                    android:hint="@string/email"
+                    android:singleLine="true"/>
             </android.support.design.widget.TextInputLayout>
 
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:theme="@style/StyleTextInputBlack">
+                android:theme="@style/StyleTextInputBlue">
 
                 <android.support.design.widget.TextInputEditText
-                    android:id="@+id/id_txt_name"
+                    android:id="@+id/id_account_name"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="@string/str_ca_name"/>
-
+                    android:hint="@string/name"
+                    android:singleLine="true"/>
             </android.support.design.widget.TextInputLayout>
 
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:theme="@style/StyleTextInputBlack">
+                android:theme="@style/StyleTextInputBlue">
 
                 <android.support.design.widget.TextInputEditText
-                    android:id="@+id/id_txt_user"
+                    android:id="@+id/id_account_user"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="@string/str_ca_user"/>
-
+                    android:hint="@string/user"
+                    android:singleLine="true"/>
             </android.support.design.widget.TextInputLayout>
 
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:theme="@style/StyleTextInputBlack">
+                android:theme="@style/StyleTextInputBlue">
 
                 <android.support.design.widget.TextInputEditText
-                    android:id="@+id/id_txt_pass"
+                    android:id="@+id/id_account_paswordAcount"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="@string/str_ca_pass"
-                    android:inputType="textPassword"/>
-
+                    android:hint="@string/password"
+                    android:inputType="textPassword"
+                    android:singleLine="true"/>
             </android.support.design.widget.TextInputLayout>
 
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:theme="@style/StyleTextInputBlack">
+                android:theme="@style/StyleTextInputBlue">
 
                 <android.support.design.widget.TextInputEditText
-                    android:id="@+id/id_txt_confpass"
+                    android:id="@+id/id_account_paswordConfirm"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="@string/str_ca_confpass"
-                    android:inputType="textPassword"/>
-
+                    android:inputType="textPassword"
+                    android:hint="@string/passwordConfirm"
+                    android:singleLine="true"/>
             </android.support.design.widget.TextInputLayout>
 
             <Button
-                android:id="@+id/id_btn_createaccount"
+                android:id="@+id/btn_account"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/str_btn_createaccount"
+                android:text="@string/txt_accept"
                 android:layout_marginTop="20dp"
                 android:theme="@style/StyleButton"/>
 
-        </LinearLayout>
 
+        </LinearLayout>
     </ScrollView>
 
 </android.support.design.widget.CoordinatorLayout>

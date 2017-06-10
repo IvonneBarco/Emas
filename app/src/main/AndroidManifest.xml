@@ -27,7 +27,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".CreateAccountActivity"
+            android:name=".Views.CreateAccountActivity"
             android:parentActivityName=".LoginActivity" />
         <activity android:name=".actionbarToolbar" />
         <activity android:name=".Views.ContainerActivity" />

@@ -8,6 +8,6 @@ public class actionbarToolbar extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_actionbar_toolbar);
+        setContentView(R.layout.actionbar_toolbar);
     }
 }

@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     tools:context="com.i015213.emas.NeighborhoodActivity">
 
-    <include layout="@layout/activity_actionbar_toolbar"/>
+    <include layout="@layout/actionbar_toolbar"/>
 
     <LinearLayout
         android:layout_width="match_parent"

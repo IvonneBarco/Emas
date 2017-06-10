@@ -1,49 +1,91 @@
-<android.support.design.widget.CoordinatorLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context="com.i015213.emas.Views.Fragments.SearchFragment">
 
     <!-- TODO: Update blank fragment layout -->
+    <include layout="@layout/actionbar_toolbar"/>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
         android:orientation="vertical">
 
-        <SearchView
-            android:id="@+id/search_neighnorhood"
+        <FrameLayout
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:iconifiedByDefault="false"
-            android:queryHint="@string/search_neighborhood">
-        </SearchView>
+            android:orientation="vertical"
+            android:background="@color/white">
 
-        <ProgressBar
-            android:id="@+id/loader"
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Info_Search"
+                android:textColor="@color/blue"
+                android:textSize="21dp"
+                android:gravity="bottom"
+                android:textAlignment="center"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:weightSum="1"
+                android:layout_gravity="bottom"
+                android:background="#53292929">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:orientation="horizontal"
+                    android:padding="0.5dp">
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:theme="@style/StyleTextInputBlue">
+                        <android.support.design.widget.TextInputEditText
+                            android:id="@+id/id_fragment_search_car"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/Ventana_search"
+                            android:singleLine="true"/>
+                    </android.support.design.widget.TextInputLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="0.8"
+                    android:layout_gravity="center"
+                    android:padding="0.5dp">
+
+                    <Button
+                        android:id="@+id/id_btn_fragment_search_car"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="@mipmap/ic_launcher"/>
+                </LinearLayout>
+
+                <!--- cargar datos en el cardviw-->
+            </LinearLayout>
+
+        </FrameLayout>
+
+        <ListView
+            android:id="@+id/id_fragment_list_car"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:visibility="gone"/>
-
-        <TextView
-            android:id="@+id/id_txt_result"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/str_result_search"
-            android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp"
-            android:textAlignment="center"
-            />
-
-        <android.support.v7.widget.RecyclerView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-        </android.support.v7.widget.RecyclerView>
-
+            android:layout_height="match_parent">
+        </ListView>
 
     </LinearLayout>
-
-
 
 </android.support.design.widget.CoordinatorLayout>

@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Emas.iml" filepath="$PROJECT_DIR$/Emas.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Emas - copia.iml" filepath="$PROJECT_DIR$/Emas - copia.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

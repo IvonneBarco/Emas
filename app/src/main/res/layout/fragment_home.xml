@@ -8,7 +8,7 @@
     tools:context="com.i015213.emas.Views.Fragments.HomeFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <include layout="@layout/activity_actionbar_toolbar"/>
+    <include layout="@layout/actionbar_toolbar"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,26 +17,27 @@
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
         android:paddingTop="10dp">
 
-        <TextView
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/id_fragment_home_swipe"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="5dp"
-            android:background="@color/white"
-            android:text="RECORRIDOS FAVORITOS"
-            android:textSize="18sp"
-            android:textColor="@color/bb_darkBackgroundColor"
-            android:textAlignment="center"/>
+            android:layout_height="wrap_content">
 
-        <ProgressBar
-            android:id="@+id/loader"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:visibility="gone"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
 
-        <include layout="@layout/cardview_picture"/>
+                <ListView
+                    android:id="@+id/id_lv_fovorites"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
 
+                </ListView>
+            </LinearLayout>
 
+        </android.support.v4.widget.SwipeRefreshLayout>
 
     </LinearLayout>
+
 
 </android.support.design.widget.CoordinatorLayout>
