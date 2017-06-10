@@ -17,4 +17,51 @@
     <string name="str_tab_search">Search</string>
     <string name="str_tab_home">Home</string>
     <string name="str_tab_profile">Profile</string>
+
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="txt_title_toolbar_Container">APP EMAS</string>
+    <string name="str_btn_profile_route">Routes</string>
+    <string name="txt_title_toolbar_profile">Profile</string>
+    <string name="str_profile_name">Ivonne</string>
+    <string name="str_profile_lastName">Barco</string>
+    <string name="str_profile_address">Mz 2 Casa 17</string>
+    <string name="str_profile_txt_address">Address</string>
+    <string name="txt_field_vaccant">Empty spaces</string>
+    <string name="txt_validation_login">Welcom</string>
+    <string name="txt_no_validation_login">Error</string>
+    <string name="txt_password_validation">Password diferent</string>
+    <string name="txt_succesfully_account">Sucessfull</string>
+    <string name="btn_fragment_profile_sign_off">Sing Out</string>
+    <string name="txt_title_toolbar_search">Search Route</string>
+    <string name="name_user">USER NAME</string>
+    <string name="Ventana_search">Search</string>
+    <string name="Info_Search">TRASH</string>
+    <string name="txt_home_info">Users</string>
+    <string name="info_profile_email">*****</string>
+    <string name="str_fragment_profile_email">Email:</string>
+    <string name="str_itm_route">ROUTE</string>
+    <string name="str_itm_neighborhood">Neighborhood</string>
+    <string name="item_favorites_menu_desmarcar"> Delete favorite </string>
+    <string name="item_favorites_menu_more_information"> More information</string>
+    <string name="str_itm_favorite_route">ROUTE</string>
+    <string name="str_itm_favorite_route_car">****** </string>
+    <string name="str_itm_favorite_neighborhood">NEIGHBORHOOD </string>
+    <string name="str_itm_favorite_neighborhood_car">**********</string>
+    <string name="txt_title_toolbar_Container_home">Favorite Routes</string>
+    <string name="txt_field_favorites">Favorite Empty</string>
+    <string name="txt_descart_favorite">Favorite delete </string>
+    <string name="txt_neighborhood_routes"> Neighborhood route </string>
+    <string name="txt_route_search">Route: </string>
+    <string name="txt_neighborhood_routes_search"> - Neighborhood:</string>
+    <string name="txt_check_true">Check Favorite </string>
+    <string name="txt_check_false">No Favorite </string>
+    <string name="id_txt_local">Change Text</string>
+    <string name="useremail">Change Text</string>
+    <string name="str_menu_change_name">Change Text</string>
+    <string name="str_menu_update">Change Text</string>
+    <string name="str_menu_exit">Change Text</string>
+    <string name="str_title_toolbar_profile">TOOLBAR PROFILE</string>
+    <string name="txt_search_bus">Search road</string>
 </resources>

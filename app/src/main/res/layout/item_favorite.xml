@@ -10,6 +10,18 @@
         android:weightSum="1"
         android:padding="10dp">
 
+        <LinearLayout
+            android:id="@+id/id_icon_car"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/icons8_garbage_truck_filled_50"
+                android:layout_marginLeft="5dp"/>
+        </LinearLayout>
+
 
         <LinearLayout
             android:layout_width="match_parent"

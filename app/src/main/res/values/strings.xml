@@ -32,7 +32,7 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="txt_title_toolbar_Container">Transporte SIT</string>
+    <string name="txt_title_toolbar_Container">APP EMAS</string>
     <string name="str_btn_profile_route">Rutas</string>
     <string name="str_btn_profile_picks">Fotos</string>
     <string name="txt_title_toolbar_profile">Perfil</string>
@@ -49,22 +49,14 @@
     <string name="btn_fragment_profile_sign_off">Cerrar Sesión</string>
     <string name="txt_title_toolbar_search">Busca tu Ruta</string>
     <string name="name_user">NOMBRE DE USUARIO</string>
-    <string name="info_profile2">PROFESIÓN U OFICIO: Estudiante de Ing. de Sistemas en la IU Cesmag</string>
-    <string name="str_profile_data">Informacion Personal</string>
-    <string name="info_profile_born">FECHA DE NACIMIENTO: Marzo 25 de 1997</string>
-    <string name="info_profile_Route">RUTA DE PREFERENCIA: C15</string>
-    <string name="info_city">CIUDAD DE ORIGEN: San Juan de Pasto</string>
     <string name="info_profile_photo">Fotos</string>
     <string name="Ventana_search">Buscar</string>
     <string name="Info_Search">RECOLECCIÓN DE BASURA</string>
-    <string name="txt_home_info">Usuarios del sistemas SIT</string>
+    <string name="txt_home_info">Usuarios del sistema</string>
     <string name="info_profile_email">*****</string>
     <string name="str_fragment_profile_email">Correo:</string>
     <string name="str_itm_route">RUTA</string>
     <string name="str_itm_neighborhood">Barrio</string>
-    <string name="str_itm_route_bus">C?</string>
-    <string name="str_itm_neighborhood_bus">\???????????</string>
-    <string name="txt_search_bus">No se encontro niguna ruta con: </string>
     <string name="item_favorites_menu_desmarcar"> Quitar Favorito </string>
     <string name="item_favorites_menu_more_information"> Más Información</string>
     <string name="str_itm_favorite_route">RUTA</string>
@@ -85,7 +77,7 @@
     <string name="str_menu_update">CAMBIAR TEXT</string>
     <string name="str_menu_exit">CAMBIAR TEXT</string>
     <string name="str_title_toolbar_profile">TOOLBAR PROFILE</string>
-
+    <string name="txt_search_bus">Buscar recorrido</string>
 
 
 </resources>
