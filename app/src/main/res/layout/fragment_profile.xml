@@ -20,15 +20,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:layout_weight="0.2">
+            android:layout_weight="0.4">
 
             <ImageView
                 android:id="@+id/id_avatar_user"
-                android:layout_width="200dp"
-                android:layout_height="200dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
-                android:src="@drawable/icons8_circled_female_user_filled_100" />
+                android:src="@drawable/female" />
 
         </RelativeLayout>
 
