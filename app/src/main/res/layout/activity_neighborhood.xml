@@ -52,7 +52,7 @@
                 android:text="NOMBRE BARRIO"/>
 
             <TextView
-                android:id="@+id/id_txt_road"
+                android:id="@+id/id_item_bus_route"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/id_txt_name_neighborhood"
@@ -61,10 +61,10 @@
                 android:textSize="18sp"/>
 
             <TextView
-                android:id="@+id/id_txt_hours"
+                android:id="@+id/id_item_bus_neighborhood"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/id_txt_road"
+                android:layout_below="@id/id_item_bus_route"
                 android:text="2:00p.m. - 3:00 p.m. - 5:00 p.m."
                 android:textAlignment="center"
                 android:textSize="18sp"/>
